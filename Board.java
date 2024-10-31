@@ -21,14 +21,16 @@ public Board() {
 }
 
 /* your code here - accessor(s) */
+// This method returns the partially solved phrase
 public String getPhrase() {
   return phrase;
 }
+// This method returns the fully solved phrase
 public String getSolvedPhrase()
 {
   return solvedPhrase;
 }
-
+// This method returns the current letter that is being guessed
 public int getCurrentLetterValue()
 {
   return currentLetterValue;
