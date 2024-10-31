@@ -24,12 +24,14 @@ public class Player {
     this.score = 0;
     this.name = inputName;
   }
+  // This method returns the name of the player
   public String getName() {
       return this.name;
   }
   public void setName(String name) {
       this.name = name;
   }
+  // This method returns the score that the player got 
   public int getScore() {
       return this.score;
   }
