@@ -21,15 +21,18 @@ public Board() {
 }
 
 /* your code here - accessor(s) */
+// The precondition is the current phrase being printed
 // This method returns the partially solved phrase
 public String getPhrase() {
   return phrase;
 }
+// The precondition is the phrase that has been solved
 // This method returns the fully solved phrase
 public String getSolvedPhrase()
 {
   return solvedPhrase;
 }
+// The precondition is the letter the user inputs
 // This method returns the current letter that is being guessed
 public int getCurrentLetterValue()
 {
