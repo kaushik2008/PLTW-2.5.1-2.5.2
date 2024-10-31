@@ -24,6 +24,7 @@ public class Player {
     this.score = 0;
     this.name = inputName;
   }
+  // The precondition is the name
   // This method returns the name of the player
   public String getName() {
       return this.name;
@@ -31,6 +32,7 @@ public class Player {
   public void setName(String name) {
       this.name = name;
   }
+  // The precondition is the score
   // This method returns the score that the player got 
   public int getScore() {
       return this.score;
